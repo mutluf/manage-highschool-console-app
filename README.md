@@ -1,6 +1,6 @@
 # ManageHighSchool
 
-![alt-text](https://github.com/mutluf/Deneme/blob/main/homework.gif.gif)
+![homework-output](https://github.com/mutluf/ManageHighSchoolConsoleApp/blob/master/homework.gif.gif)
 
 
 ### Projede 2 Class'ı Neden Yaptım? InMemoryDatas / IdProvider
