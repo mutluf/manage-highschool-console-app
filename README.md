@@ -25,6 +25,8 @@ public class StudentList
 ```
 
 
+
+
 #### IDProvider
 Veri tabanı bağlantısı yapmadığım için böyle bir sınıfa ihtiyaç duydum. Her veri listesi için Provider class'larım mevcuttur. Id gibi uniqe bir değeri statik olarak elle vermeyi şık bir yöntem olarak görmediğimden kendi id sağlayıcı sınıflarımı oluşturdum. Burada Random sınıfının bir instance ile rastgele sayılar aldım ve buradaki örnekte olduğuğu gibi her veri listesinin kendi listesinde, üretilmiş bu id nin var olup olmadığını kontrol ettim. Do-while döngüsü ile bir kere id atadıktan sonra check işlemi yapıldı ve Any metodu true döndükçe random bir değer üretilmeye devam edildi. Ta ki üretilen değer mevcut listede bulunmayana kadar.
 
