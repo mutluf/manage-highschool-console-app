@@ -6,11 +6,6 @@ namespace ManageHighSchool.InMemoryDatas
     {
         public static List<Classroom> classroomListsInstance;
 
-        private ClassroomList()
-        {
-
-        }
-
         public static List<Classroom> GetClassroomListInstance()
         {
             if (classroomListsInstance == null)

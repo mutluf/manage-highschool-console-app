@@ -19,9 +19,9 @@ teacherService.Add(new() { Branch = "Matematik", FullName = "Nur Banu" });
 roomService.Add(new Classroom() { Name = "A", Teacher = teacherList[0] });
 studentService.Add(new Student() { FullName = "Fatma Mutlu", Classroom = classroomList[0] });
 
-Console.WriteLine("öğrenci" + studentList[0].StudentNumber);
-Console.WriteLine("sınıf" + classroomList[0].Id);
-Console.WriteLine("öğretmen" + teacherList[0].Id);
+Console.WriteLine("öğrenci numarası " + studentList[0].StudentNumber);
+Console.WriteLine("sınıf numarası " + classroomList[0].Id);
+Console.WriteLine("öğretmen numarası " + teacherList[0].Id);
 void Back(string operation)
 {
     Console.WriteLine("\nAna menüye dönmek için 1 \nBir önceki sayfaya dönmek için 2 tuşlayınız.\nÇıkış yapmak için 3 tuşlayınız.");
